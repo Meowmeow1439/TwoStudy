@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace TwoStudy.Utils
 {
-    public class FuncActivity
+    public class ToolsActivity
     {
         public List<ActivityItem> getStartingMenu()
         {

@@ -14,7 +14,7 @@ namespace TwoStudy
     [Activity(Label = "TwoStudy", MainLauncher = true, Icon = "@mipmap/icon")]
     public class HomeActivity : ListActivity
     {
-        public FuncActivity utilFuncActivity = new FuncActivity();
+        public ToolsActivity utilFuncActivity = new ToolsActivity();
         public List<ActivityItem> Activities;
 
         protected override void OnCreate(Bundle bundle)

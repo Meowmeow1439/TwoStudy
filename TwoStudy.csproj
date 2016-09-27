@@ -44,16 +44,20 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Utils\additionalClass.cs" />
+    <Compile Include="Activities\ActivityChangelog.cs" />
+    <Compile Include="Utils\CustomStruct.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FuncActivity.cs" />
+    <Compile Include="Utils\ToolsActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\Changelog.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -65,7 +69,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Activities\" />
+    <AndroidResource Include="Resources\values\Changelog.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Menu\MenuToolbox.xml" />
