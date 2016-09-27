@@ -31,6 +31,39 @@ namespace TwoStudy
 		public partial class Attribute
 		{
 			
+			// aapt resource value: 0x7f010000
+			public const int cardBackgroundColor = 2130771968;
+			
+			// aapt resource value: 0x7f010001
+			public const int cardCornerRadius = 2130771969;
+			
+			// aapt resource value: 0x7f010002
+			public const int cardElevation = 2130771970;
+			
+			// aapt resource value: 0x7f010003
+			public const int cardMaxElevation = 2130771971;
+			
+			// aapt resource value: 0x7f010005
+			public const int cardPreventCornerOverlap = 2130771973;
+			
+			// aapt resource value: 0x7f010004
+			public const int cardUseCompatPadding = 2130771972;
+			
+			// aapt resource value: 0x7f010006
+			public const int contentPadding = 2130771974;
+			
+			// aapt resource value: 0x7f01000a
+			public const int contentPaddingBottom = 2130771978;
+			
+			// aapt resource value: 0x7f010007
+			public const int contentPaddingLeft = 2130771975;
+			
+			// aapt resource value: 0x7f010008
+			public const int contentPaddingRight = 2130771976;
+			
+			// aapt resource value: 0x7f010009
+			public const int contentPaddingTop = 2130771977;
+			
 			static Attribute()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -44,32 +77,44 @@ namespace TwoStudy
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f060007
-			public const int color_1 = 2131099655;
+			// aapt resource value: 0x7f050000
+			public const int cardview_dark_background = 2131034112;
 			
-			// aapt resource value: 0x7f060008
-			public const int color_2 = 2131099656;
+			// aapt resource value: 0x7f050001
+			public const int cardview_light_background = 2131034113;
 			
-			// aapt resource value: 0x7f060002
-			public const int xam_blue = 2131099650;
+			// aapt resource value: 0x7f050002
+			public const int cardview_shadow_end_color = 2131034114;
 			
-			// aapt resource value: 0x7f060000
-			public const int xam_dark_blue = 2131099648;
+			// aapt resource value: 0x7f050003
+			public const int cardview_shadow_start_color = 2131034115;
 			
-			// aapt resource value: 0x7f060005
-			public const int xam_gray = 2131099653;
+			// aapt resource value: 0x7f05000b
+			public const int color_1 = 2131034123;
 			
-			// aapt resource value: 0x7f060003
-			public const int xam_green = 2131099651;
+			// aapt resource value: 0x7f05000c
+			public const int color_2 = 2131034124;
 			
-			// aapt resource value: 0x7f060004
-			public const int xam_light_gray = 2131099652;
+			// aapt resource value: 0x7f050006
+			public const int xam_blue = 2131034118;
 			
-			// aapt resource value: 0x7f060006
-			public const int xam_medium_blue = 2131099654;
+			// aapt resource value: 0x7f050004
+			public const int xam_dark_blue = 2131034116;
 			
-			// aapt resource value: 0x7f060001
-			public const int xam_purple = 2131099649;
+			// aapt resource value: 0x7f050009
+			public const int xam_gray = 2131034121;
+			
+			// aapt resource value: 0x7f050007
+			public const int xam_green = 2131034119;
+			
+			// aapt resource value: 0x7f050008
+			public const int xam_light_gray = 2131034120;
+			
+			// aapt resource value: 0x7f05000a
+			public const int xam_medium_blue = 2131034122;
+			
+			// aapt resource value: 0x7f050005
+			public const int xam_purple = 2131034117;
 			
 			static Color()
 			{
@@ -77,6 +122,28 @@ namespace TwoStudy
 			}
 			
 			private Color()
+			{
+			}
+		}
+		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int cardview_compat_inset_shadow = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int cardview_default_elevation = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int cardview_default_radius = 2131099650;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
 			{
 			}
 		}
@@ -121,26 +188,26 @@ namespace TwoStudy
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080002
-			public const int action_0 = 2131230722;
+			// aapt resource value: 0x7f0a0002
+			public const int action_0 = 2131361794;
 			
-			// aapt resource value: 0x7f080003
-			public const int action_1 = 2131230723;
+			// aapt resource value: 0x7f0a0003
+			public const int action_1 = 2131361795;
 			
-			// aapt resource value: 0x7f080004
-			public const int action_2 = 2131230724;
+			// aapt resource value: 0x7f0a0004
+			public const int action_2 = 2131361796;
 			
-			// aapt resource value: 0x7f080005
-			public const int action_edit = 2131230725;
+			// aapt resource value: 0x7f0a0005
+			public const int action_edit = 2131361797;
 			
-			// aapt resource value: 0x7f080006
-			public const int action_save = 2131230726;
+			// aapt resource value: 0x7f0a0006
+			public const int action_save = 2131361798;
 			
-			// aapt resource value: 0x7f080001
-			public const int layoutChangelog = 2131230721;
+			// aapt resource value: 0x7f0a0001
+			public const int layoutChangelog = 2131361793;
 			
-			// aapt resource value: 0x7f080000
-			public const int myButton = 2131230720;
+			// aapt resource value: 0x7f0a0000
+			public const int myButton = 2131361792;
 			
 			static Id()
 			{
@@ -174,11 +241,11 @@ namespace TwoStudy
 		public partial class Menu
 		{
 			
-			// aapt resource value: 0x7f070000
-			public const int MenuButton = 2131165184;
+			// aapt resource value: 0x7f090000
+			public const int MenuButton = 2131296256;
 			
-			// aapt resource value: 0x7f070001
-			public const int MenuToolbox = 2131165185;
+			// aapt resource value: 0x7f090001
+			public const int MenuToolbox = 2131296257;
 			
 			static Menu()
 			{
@@ -218,14 +285,14 @@ namespace TwoStudy
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050002
-			public const int app_name = 2131034114;
+			// aapt resource value: 0x7f080002
+			public const int app_name = 2131230722;
 			
-			// aapt resource value: 0x7f050001
-			public const int hello = 2131034113;
+			// aapt resource value: 0x7f080001
+			public const int hello = 2131230721;
 			
-			// aapt resource value: 0x7f050000
-			public const int str0_0_1_alpha1 = 2131034112;
+			// aapt resource value: 0x7f080000
+			public const int str0_0_1_alpha1 = 2131230720;
 			
 			static String()
 			{
@@ -233,6 +300,98 @@ namespace TwoStudy
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f070000
+			public const int Base_CardView = 2131165184;
+			
+			// aapt resource value: 0x7f070001
+			public const int CardView = 2131165185;
+			
+			// aapt resource value: 0x7f070002
+			public const int CardView_Dark = 2131165186;
+			
+			// aapt resource value: 0x7f070003
+			public const int CardView_Light = 2131165187;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] CardView = new int[] {
+					16843071,
+					16843072,
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978};
+			
+			// aapt resource value: 1
+			public const int CardView_android_minHeight = 1;
+			
+			// aapt resource value: 0
+			public const int CardView_android_minWidth = 0;
+			
+			// aapt resource value: 2
+			public const int CardView_cardBackgroundColor = 2;
+			
+			// aapt resource value: 3
+			public const int CardView_cardCornerRadius = 3;
+			
+			// aapt resource value: 4
+			public const int CardView_cardElevation = 4;
+			
+			// aapt resource value: 5
+			public const int CardView_cardMaxElevation = 5;
+			
+			// aapt resource value: 7
+			public const int CardView_cardPreventCornerOverlap = 7;
+			
+			// aapt resource value: 6
+			public const int CardView_cardUseCompatPadding = 6;
+			
+			// aapt resource value: 8
+			public const int CardView_contentPadding = 8;
+			
+			// aapt resource value: 12
+			public const int CardView_contentPaddingBottom = 12;
+			
+			// aapt resource value: 9
+			public const int CardView_contentPaddingLeft = 9;
+			
+			// aapt resource value: 10
+			public const int CardView_contentPaddingRight = 10;
+			
+			// aapt resource value: 11
+			public const int CardView_contentPaddingTop = 11;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}
