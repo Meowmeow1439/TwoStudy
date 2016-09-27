@@ -20,7 +20,7 @@ namespace TwoStudy
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            Activities = utilFuncActivity.getStartingMenu();
+            Activities = utilFuncActivity.getStartingMenu(this);
             ListAdapter = new ArrayAdapter<ActivityItem>(this, Android.Resource.Layout.SimpleListItem1, Android.Resource.Id.Text1, Activities);
         }
 

@@ -12,13 +12,13 @@ using Android.Widget;
 
 namespace TwoStudy.Activities
 {
-    [Activity(Label = "ActivityChangelog"/*, ParentActivity = typeof(HomeActivity)*/)]
+    [Activity(Label = "ActivityChangelog", ParentActivity = typeof(HomeActivity))]
     public class ActivityChangelog : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            //SetContentView(Resource.Layout.changelog);
+            SetContentView(Resource.Layout.Changelog);
             ActionBar.SetDisplayHomeAsUpEnabled(true);
             ActionBar.SetDisplayShowHomeEnabled(true);
             ActionBar.SetIcon(Android.Resource.Color.Transparent);
