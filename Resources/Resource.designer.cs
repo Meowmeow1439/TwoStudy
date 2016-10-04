@@ -95,6 +95,18 @@ namespace TwoStudy
 			// aapt resource value: 0x7f05000c
 			public const int color_2 = 2131034124;
 			
+			// aapt resource value: 0x7f050010
+			public const int interfaceAdditional = 2131034128;
+			
+			// aapt resource value: 0x7f05000f
+			public const int interfacePrime = 2131034127;
+			
+			// aapt resource value: 0x7f05000e
+			public const int text2 = 2131034126;
+			
+			// aapt resource value: 0x7f05000d
+			public const int textMain = 2131034125;
+			
 			// aapt resource value: 0x7f050006
 			public const int xam_blue = 2131034118;
 			
@@ -128,6 +140,9 @@ namespace TwoStudy
 		
 		public partial class Dimension
 		{
+			
+			// aapt resource value: 0x7f060003
+			public const int MarginSchedule = 2131099651;
 			
 			// aapt resource value: 0x7f060000
 			public const int cardview_compat_inset_shadow = 2131099648;
@@ -188,26 +203,62 @@ namespace TwoStudy
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a0002
-			public const int action_0 = 2131361794;
+			// aapt resource value: 0x7f0a000e
+			public const int action_0 = 2131361806;
 			
-			// aapt resource value: 0x7f0a0003
-			public const int action_1 = 2131361795;
+			// aapt resource value: 0x7f0a000f
+			public const int action_1 = 2131361807;
 			
-			// aapt resource value: 0x7f0a0004
-			public const int action_2 = 2131361796;
+			// aapt resource value: 0x7f0a0010
+			public const int action_2 = 2131361808;
 			
-			// aapt resource value: 0x7f0a0005
-			public const int action_edit = 2131361797;
+			// aapt resource value: 0x7f0a0011
+			public const int action_edit = 2131361809;
 			
-			// aapt resource value: 0x7f0a0006
-			public const int action_save = 2131361798;
+			// aapt resource value: 0x7f0a0012
+			public const int action_save = 2131361810;
 			
 			// aapt resource value: 0x7f0a0001
 			public const int layoutChangelog = 2131361793;
 			
+			// aapt resource value: 0x7f0a0003
+			public const int llMonday = 2131361795;
+			
+			// aapt resource value: 0x7f0a0009
+			public const int llMonday0 = 2131361801;
+			
+			// aapt resource value: 0x7f0a0005
+			public const int llMondayLessons = 2131361797;
+			
+			// aapt resource value: 0x7f0a0006
+			public const int llMondayTime0 = 2131361798;
+			
 			// aapt resource value: 0x7f0a0000
 			public const int myButton = 2131361792;
+			
+			// aapt resource value: 0x7f0a0004
+			public const int txtDayMonday = 2131361796;
+			
+			// aapt resource value: 0x7f0a000c
+			public const int txtMonday0AddInfo = 2131361804;
+			
+			// aapt resource value: 0x7f0a000d
+			public const int txtMonday0AddInfo2 = 2131361805;
+			
+			// aapt resource value: 0x7f0a000a
+			public const int txtMonday0Subject = 2131361802;
+			
+			// aapt resource value: 0x7f0a000b
+			public const int txtMonday0Teacher = 2131361803;
+			
+			// aapt resource value: 0x7f0a0002
+			public const int txtScheduleInfo = 2131361794;
+			
+			// aapt resource value: 0x7f0a0007
+			public const int txtTimeMonday1 = 2131361799;
+			
+			// aapt resource value: 0x7f0a0008
+			public const int txtTimeMonday2 = 2131361800;
 			
 			static Id()
 			{
@@ -227,6 +278,9 @@ namespace TwoStudy
 			
 			// aapt resource value: 0x7f040001
 			public const int Main = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int Schedule = 2130968578;
 			
 			static Layout()
 			{
@@ -285,14 +339,17 @@ namespace TwoStudy
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f080002
-			public const int app_name = 2131230722;
+			// aapt resource value: 0x7f080003
+			public const int app_name = 2131230723;
 			
-			// aapt resource value: 0x7f080001
-			public const int hello = 2131230721;
+			// aapt resource value: 0x7f080002
+			public const int hello = 2131230722;
 			
 			// aapt resource value: 0x7f080000
-			public const int str0_0_1_alpha1 = 2131230720;
+			public const int str0_0_2_alpha2 = 2131230720;
+			
+			// aapt resource value: 0x7f080001
+			public const int str0_0_2_alpha3 = 2131230721;
 			
 			static String()
 			{

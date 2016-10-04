@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
   <string name="str0_0_2_alpha2">Версия 0.0.2-alpha.2\n Тестируем карточки. Тестовый блок №1</string>
+  <string name="str0_0_2_alpha3">Версия 0.0.2-alpha.3\n Добавлено активити для рассписания, классы, структуры и т.д.</string>
 </resources>

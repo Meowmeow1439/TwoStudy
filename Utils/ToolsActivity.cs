@@ -20,7 +20,7 @@ namespace TwoStudy.Utils
         {
             List<ActivityItem> menuList = new List<ActivityItem>();
             menuList.Add(new ActivityItem("Menu point 1", new Intent(toReturn, typeof( ActivityChangelog ))));
-            menuList.Add(new ActivityItem("Menu point 2", null));
+			menuList.Add(new ActivityItem("Menu point 2", new Intent(toReturn, typeof( ActivitySchedule ))));
             return menuList;
         }
     }

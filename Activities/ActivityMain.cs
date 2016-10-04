@@ -9,7 +9,7 @@ using System.Collections.Generic;
 
 using TwoStudy.Utils;
 
-namespace TwoStudy
+namespace TwoStudy.Activities
 {
     [Activity(Label = "TwoStudy", MainLauncher = true, Icon = "@mipmap/icon")]
     public class HomeActivity : ListActivity
